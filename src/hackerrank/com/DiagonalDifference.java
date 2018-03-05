@@ -7,7 +7,7 @@ public class DiagonalDifference {
     static int diagonalDifference(int[][] a) {
     	int result = 0;
     	result = secondDiagonal(a) - firstDiagonal(a);
-		return result;
+		return Math.abs(result);
     }
 
 	private static int firstDiagonal(int[][] a) {
