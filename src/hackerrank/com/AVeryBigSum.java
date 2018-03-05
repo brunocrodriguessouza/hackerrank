@@ -11,12 +11,11 @@ import java.util.Scanner;
 public class AVeryBigSum {
 	
     static long aVeryBigSum(int n, long[] ar) {
-    	long total = 0;
+    	long result = 0;
         for (int i = 0; i < ar.length; i++) {
-			total = total + ar[i];
+			result = result + ar[i];
 		}
-		return total;
-
+		return result;
     }
 
     public static void main(String[] args) {
