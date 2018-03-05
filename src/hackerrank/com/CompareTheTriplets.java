@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 
  * @author Bruno Cícero Rodrigues de souza
- * Compare de Triplets
+ * Compare the Triplets
  *
  */
 public class CompareTheTriplets {
