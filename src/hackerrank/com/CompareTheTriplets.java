@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Compare de Triplets
  *
  */
-public class Solution {
+public class CompareTheTriplets {
 
     static int[] solve(int a0, int a1, int a2, int b0, int b1, int b2){
        int[] score = new int[2];
